@@ -14,5 +14,6 @@ setInterval(function() {
     sec = `0${sec}`
   }
 
-  $(".clockk").html(`${hr}:${min}:${sec}`)
+  $(".clock").html(`#${hr}${min}${sec}`)
+  $("body").css({ background: `#${hr}${min}${sec}` })
 }, 1000)

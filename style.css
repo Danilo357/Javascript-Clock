@@ -1,12 +1,26 @@
-#clock {
-  font-size: 50px;
-  color: white;
-  text-align: center;
+html {
+  box-sizing: border-box;
+  font-family: "Lobster two";
+  font-style: italic;
+  font-weight: bold;
 }
-
-#hex-color {
-  font-size: 50px;
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+}
+div {
+  width: 1200px;
+  height: auto;
+  margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
-  text-align: center;
-  padding-top: 20px;
+  font-size: 80px;
+}
+.html1 {
+  background: blue;
 }
